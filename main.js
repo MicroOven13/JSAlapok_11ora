@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const focimElem = document.getElementById("focim")
 focimElem.textContent = "Mátrix Rendszer"   
 
@@ -30,3 +31,22 @@ function fuggveny(){
     eredmenyDiv.insertAdjacentHTML("beforeend",`<span>${jatekosNev}, ${gombFelirat} </span>`)
     eredmenyDiv.textContent= ` ${jatekosNev}, ${gombFelirat}`
 }
+=======
+const focimElem=document.getElementById("focim")
+focimElem.textContent="focim"
+
+let statuszElemek=document.getElementsByClassName
+statuszElemek.textContent="statuszElemek"
+
+console.log(statuszElemek)  
+
+
+
+
+
+
+
+
+let listaElem=document.querySelectorAll(".listaElem")
+listaElemek.textContent="listaElem"
+>>>>>>> f5c4884e7a71a0f78b834d76673e94ff78ec89e5
